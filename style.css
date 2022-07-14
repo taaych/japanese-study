@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --snow: #faf7f9;
+    --lavender-blush: #fbedeb;
+    --van-dyke-brown: #67391d;
+    --spanish-pink: #F9C2BE;
+    --light-coral: #FA7A7F;
+}
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    display: relative;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+#nav-bar {
+    width: 100%;
+    background-color: blueviolet;
+    height: 50px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    border: inset 1px black ;
+}
