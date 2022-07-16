@@ -23,6 +23,7 @@
     background-color: aqua;
 }
 
+/* Nav Bar Styles */
 
 #nav-bar {
     width: 100%;
@@ -53,18 +54,28 @@
     transform: scale(.99);
 }
 
+
+
 .home-elements {
     background-color: aqua;
     width: 100%;
-    display: absolute;
-    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0 auto; */
 }
+
+
+/* Flower Element Styles */
 
 #flower-container{
     background-color: bisque;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     position: relative;
+    margin: auto;
 }
 
 .flower-petal {
@@ -88,6 +99,15 @@
 .flower-petal-name.active {
     visibility: visible;
     font-weight: bold;
+}
+
+#flower-shape {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    /* transition: transform 2s linear;
+    transform: rotate(360deg);
+    transform-origin: bottom right; */
 }
 
 .cpetal {
@@ -118,4 +138,11 @@
     position: absolute;
     top: 300px;
     left: 230px;
+}
+
+
+/* Background img Styles */
+
+#bg-img-container {
+
 }
