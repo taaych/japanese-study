@@ -32,6 +32,7 @@ Nav bar
 3 Texts w/ H2 Headers : 5 texts on the tracker of h2s with the categories. Grow bold on hover
 1 img: The chair of cherry blossoms on the bottom. Will make an SVG image in later versions. For now, CC Png of Cherry Blossom branch will do.
 
+HMPG DONE %100
 //////////////////////////////////////
 
 Reading:
@@ -67,6 +68,11 @@ Nav Bar
 1 (un)ordered list with links to 5 other websites
 
 
+(List with a dropdown based on the colored list here:
+https://codepen.io/equinusocio/pen/OqpBKJ)
+(Have lists inside the lists of dropdowns that explain which I've used)
+
+LISTENING 100% DONE
 //////////////////////////////////////
 
 Speaking:

@@ -17,8 +17,9 @@
     background-color: var(--snow);
 }
 
+
+
 .main-container {
-    display: relative;
     width: 100%;
     background-color: aqua;
 }
@@ -56,7 +57,7 @@
 
 
 
-.home-elements {
+.home-elements, .listening-elements {
     background-color: aqua;
     width: 100%;
     padding: 30px;
@@ -67,6 +68,8 @@
     /* margin: 0 auto; */
 }
 
+
+/*/////HOME PG STYLES////////////// */
 
 /* Flower Element Styles */
 
@@ -143,6 +146,28 @@
 
 /* Background img Styles */
 
-#bg-img-container {
+/* #bg-img-container {
+    background-color: transparent;
+} */
 
+/*/////LISTENING PG STYLES////////////// */
+
+#listening-elements-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listening-elements-ul {
+    background-color: aquamarine;
+    list-style-type: circle;
+
+}
+
+.listening-elements-li {
+    /*  text-decoration: none; */
+    padding: 10px;
+    color: #67391d;
+    /* font-size: large; */
 }
